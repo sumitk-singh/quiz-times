@@ -11,8 +11,8 @@ const Start = ({ props }) => {
             <div className='quiz-Rules'>
                 <h3>Quiz Rules</h3>
                 <p>There are total 5 questions in this section.</p>
-                <p>For Each correct answer there will be 1 marks.</p>
-                <p>For Each incorrect answer there will be 0 marks.</p>
+                <p>For Each correct answer there will be 1 point.</p>
+                <p>For Each incorrect answer there will be 0 point.</p>
                 <p>You may not change the option once opted</p>
                
             </div>

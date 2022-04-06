@@ -8,7 +8,8 @@ const GameOver = ({pts}) => {
         <>
         <hr/>
             <h2>Result</h2>
-            <h3>Your score is {pts} out of 5</h3>
+            <hr/>
+            <h3>Your score is {pts} /5 points</h3>
             <hr/>
             <button className="game-Over" onClick={refreshPage}>Retry</button>
         </>
