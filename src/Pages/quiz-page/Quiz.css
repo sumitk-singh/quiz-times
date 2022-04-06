@@ -1,0 +1,72 @@
+
+:root {
+    --theam-color: #3D94FF;
+    --theam-color-dark: #235ca1;
+    --color-dark: #303030;
+    
+}
+
+button {
+    background-color: var(--theam-color-dark);
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: var(--theam-color);
+}
+
+button:focus {
+    outline: none;
+    background-color: var(--color-dark);
+} 
+
+/* ******************************************** */
+.quiz-Ques {
+
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.ans-Option {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 20px;
+  
+}
+
+.ans-Option>button{
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+/* quiz rules */
+.quiz-Rules{
+text-align: center;
+}
+
+.quiz-Box{
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btn-Start, .game-Over{
+    border: 1px solid;
+    border-radius: 15px;
+}
+
