@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import GameOver from '../Pages/quiz-page/GameOver';
-// import "../../quiz-page/Quiz.css";
+
 
  export const DataComputerScienceQuiz = () => {
 

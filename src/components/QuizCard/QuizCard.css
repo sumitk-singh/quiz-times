@@ -16,13 +16,13 @@
   height: 1rem max-content;
   
   width: 20rem;
-  border-radius: 12px;
+  border-radius: 10px;
   background: linear-gradient(var(--play-btn), white);
 
 }
 
 .btn-play {
-  border-radius: 12px;
+  border-radius: 10px;
   width: 100%;
   padding: 5px;
   letter-spacing: 1px;
