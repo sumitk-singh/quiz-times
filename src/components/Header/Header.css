@@ -1,0 +1,47 @@
+/* color variables */
+:root {
+    --light-theam-color: #ffd9c9;
+    --dark-theam-color: #3D94FF;
+    --dark-color:#000000;
+}
+/* *** */
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    height: 1.875rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-logo-img {
+    width: 6.25rem;
+    height: 3.125rem;
+}
+
+.nav-bar-icons-list,
+.nav-bar-links-list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav-bar-links-list>li>a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.nav-bar-links-list>li>a:hover {
+    cursor: pointer;
+    color: var(--dark-theam-color);
+    transition: color 0.5s;
+}
+
+.nav-bar-icons-list>li:hover {
+    cursor: pointer;
+    color: var(--dark-theam-color);
+    transition: color 0.5s;
+}
+
+/* *** */
