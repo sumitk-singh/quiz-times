@@ -1,9 +1,11 @@
 /* color variables */
 :root {
-    --light-theam-color: #ffd9c9;
-    --dark-theam-color: #3D94FF;
-    --dark-color:#000000;
+    --light-theam-color: #72b1fe;
+    --dark-theam-color: #157eff;
+    --dark-color: #000000;
+    --light-color:#ffffff;
 }
+
 /* *** */
 
 .nav-bar {
@@ -16,18 +18,18 @@
 }
 
 .brand-logo-img {
-    width: 6.25rem;
-    height: 3.125rem;
+    width: auto;
+    height: 2rem;
 }
 
 .nav-bar-icons-list,
 .nav-bar-links-list {
     display: flex;
-    gap: 15px;
+    gap: 1rem;
     list-style: none;
 }
 
-.nav-bar-links-list>li>a{
+.nav-bar-links-list>li>a {
     text-decoration: none;
     color: var(--dark-color);
 }
@@ -44,4 +46,16 @@
     transition: color 0.5s;
 }
 
+#nav-Login {
+   
+    border: 1px solid var(--dark-theam-color);
+border-radius: 10px;
+padding: 5px;
+}
+
+
+#nav-Login:hover{
+    background-color: var(--dark-theam-color);
+   color: var(--light-color);
+}
 /* *** */

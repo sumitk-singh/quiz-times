@@ -17,7 +17,7 @@ export const Header = () => {
                         </div>
                         <div className="nav-bar-icons">
                             <ul className="nav-bar-icons-list">
-                                <li>Login/ Signup</li>
+                                <li id="nav-Login">Login</li>
                             </ul>
                         </div>
                     </div>
