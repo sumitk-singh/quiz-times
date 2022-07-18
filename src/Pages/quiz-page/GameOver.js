@@ -1,17 +1,19 @@
 import "../quiz-page/Quiz.css";
 
-const GameOver = ({pts}) => {
+const GameOver = ({ pts }) => {
 
     const refreshPage = () => window.location.reload();
 
     return (
         <>
-        <hr/>
+            <hr />
             <h2>Result</h2>
-            <hr/>
-            <h3>Your score is {pts} /5 points</h3>
-            <hr/>
-            <button className="game-Over" onClick={refreshPage}>Retry</button>
+            <hr />
+            <h3>Your score is {pts} /10 points</h3>
+            <hr />
+
+           <button className="game-Over-btn" onClick={refreshPage}>Retry</button>
+        
         </>
     )
 }

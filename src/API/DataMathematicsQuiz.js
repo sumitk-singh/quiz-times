@@ -46,7 +46,7 @@ import GameOver from '../Pages/quiz-page/GameOver';
                 </>
             }
             {
-                number === 5 && <GameOver pts={pts} />
+               number>9 ? <GameOver pts={pts} /> : " " 
             }
           
         </div>

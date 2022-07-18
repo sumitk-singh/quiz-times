@@ -3,6 +3,7 @@
     --theam-color: #3D94FF;
     --theam-color-dark: #235ca1;
     --color-dark: #303030;
+    --color-orange: #d38a03;
     
 }
 
@@ -67,8 +68,14 @@ text-align: center;
 margin-bottom: 15rem;
 }
 
-.btn-Start, .game-Over{
+.btn-Start{
     border: 1px solid;
     border-radius: 15px;
+}
+
+.game-Over-btn{
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: var(--color-orange);
 }
 
