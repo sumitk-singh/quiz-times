@@ -51,7 +51,7 @@
     border: 1px solid var(--dark-theam-color);
 border-radius: 10px;
 padding: 5px;
-    display: none;
+    visibility: hidden;
 }
 
 
