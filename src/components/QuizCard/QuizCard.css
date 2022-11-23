@@ -2,6 +2,7 @@
   --fonnt-color-light: #ededed;
   --play-btn: #3d94ff;
   --play-btn-hover: #0258c2;
+  --shadow-color:#235ca1;
 }
 
 
@@ -34,5 +35,6 @@
   cursor: pointer;
   background-color: var(--play-btn-hover);
   transition: background-color 0.5s;
+  box-shadow: 0px 0px 10px var()--shadow-color;
 
 }
