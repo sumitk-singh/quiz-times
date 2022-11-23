@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Start from "./Start"
 import { DataComputerScienceQuiz } from '../../API';
 
+import "./Quiz.css";
+
 const ComputerScienceQuiz = ()=> {
 
     const [start, setStart] = useState(false);

@@ -3,6 +3,7 @@
 }
 
 .footer {
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
