@@ -19,8 +19,9 @@ function App() {
           <Route path='/MythologyQuiz' element={<MythologyQuiz />}></Route>
          
         </Routes>
+ <Footer />
       </div>
-      <Footer />
+     
     </BrowserRouter>
   );
 }
