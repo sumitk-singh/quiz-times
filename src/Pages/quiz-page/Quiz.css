@@ -85,3 +85,11 @@ margin-bottom: 15rem;
     margin-top: 2rem;
     height: auto;
 }
+
+/* -------------- */
+#text-big{
+font-size: 2rem;
+padding: 10px;
+background: #eeff00;
+
+}

@@ -7,9 +7,9 @@ const GameOver = ({ pts }) => {
     return (
         <>
             <hr />
-            <h2>Result</h2>
+            <h2>𖧵 Result 𖧵</h2>
             <hr />
-            <h3>Your score is {pts} /10 points</h3>
+            <h3>Your score is <span id="text-big">{pts} /10</span> points</h3>
             <hr />
 
            <button className="game-Over-btn" onClick={refreshPage}>Retry</button>
